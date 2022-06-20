@@ -52,4 +52,9 @@ public class QlubStepDefs {
     public void theUserShouldSeeTheBillThatHeOrdered() {
         Assert.assertTrue(invoicePage.billStatement.isDisplayed());
     }
+
+    @Then("The user should see the payment options")
+    public void theUserShouldSeeThePaymentOptions() {
+
+    }
 }
